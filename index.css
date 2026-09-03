@@ -26,12 +26,63 @@
     width: 70%;
     height: 100%;
     background-color: lightgrey;
+    flex-direction: row;
     
 }
 #minilewy{
+    display: flex;
     height: 100%;
-    width: 30%;
-    text-align: center;
-    justify-self:end;
+    width: 100%;
+    justify-content: center;
     
+}
+
+
+#prawy{
+    display: flex;
+    background-color: var(--szary);
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.obraz1{
+    height: 100px;
+    align-self: center;
+}
+.małepudełek{
+    display: flex;
+    height: 70%;
+    width: 30%;
+    font-size: x-large;
+}
+
+#miniprawy {
+    height: 100%;
+    width: 70%;
+}
+
+#gor{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+}
+
+#dol{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.but{
+    height: 50%;
+    width: 40%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.ton{
+    height: 50%;
+    width: 40%;
+    align-self: center;
 }
