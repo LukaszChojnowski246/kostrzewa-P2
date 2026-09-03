@@ -1,0 +1,37 @@
+:root {
+    --jasnyziel: #3CA666;
+    --ciemnyziel: #0A6446;
+    --szary: #B7B7B7;
+    --ciorny: #222222;
+  }
+ body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--ciemnyziel);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+
+.gora {
+    display: flex;
+    background-color: var(--szary);
+    height: 18%;
+    width: 100%;
+}
+
+#lewy{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: lightgrey;
+    
+}
+#minilewy{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    justify-self:end;
+    
+}
